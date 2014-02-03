@@ -1,7 +1,2 @@
-target/
-*.iml
-*.ipr
-*.iws
-*.log
-*.class
-.idea/
+/bin
+/gen
