@@ -210,7 +210,7 @@ public class FlowLayout extends ViewGroup {
         try {
             horizontalSpacing = a.getDimensionPixelSize(R.styleable.FlowLayout_horizontalSpacing, 0);
             verticalSpacing = a.getDimensionPixelSize(R.styleable.FlowLayout_verticalSpacing, 0);
-            orientation = a.getInteger(R.styleable.FlowLayout_orientation, HORIZONTAL);
+            orientation = a.getInteger(R.styleable.FlowLayout_forientation, HORIZONTAL);
             debugDraw = a.getBoolean(R.styleable.FlowLayout_debugDraw, false);
         } finally {
             a.recycle();
